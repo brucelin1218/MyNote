@@ -14,9 +14,9 @@ int main() {
     return 0;
 }
 
-// Compares to the way below, this way saves the memory.
+// Compare to the way below, this way saves the memory.
 /*
-int a[5] = {3, 6, 9, -8, 1};
+    int a[5] = {3, 6, 9, -8, 1};
     int b[5] = {9, 8, 7, 6, 5};
  
     // multi-pass
