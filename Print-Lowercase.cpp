@@ -6,7 +6,7 @@ int main() {
     
     for (int i=0; s[i]; i++) {
         if (s[i] >= 'A' && s[i] <= 'Z')
-            cout << char(s[i] - 'A' + 'a');
+            cout << char(s[i] - 'A' + 'a'); // convert the ASCII value to char
         else
             cout << s[i];
     }
