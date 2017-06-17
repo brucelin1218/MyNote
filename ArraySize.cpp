@@ -6,7 +6,7 @@ using namespace std;
 int main() {
     int arr[100], a, n = 0;
     
-    while(scanf("%d", &a), a) {
+    while(scanf("%d", &a), a) { // the program stops if the input is 0
         arr[n++] = a;
     }
     
