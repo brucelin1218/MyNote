@@ -1,3 +1,5 @@
+// When swaping two int arrays, swap one by one through one single variable 
+
 #include <iostream>
 using namespace std;
 
