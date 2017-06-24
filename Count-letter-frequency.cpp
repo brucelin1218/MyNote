@@ -25,3 +25,30 @@ int main() {
     
     return 0;
 }
+
+/*
+Another approach to count the letters:
+
+void count_letter() {
+    char s[15] = "Hello World!";
+ 
+    // Convert to lowercase
+    for (int i=0; s[i]; i++) {
+        if (s[i] >= 'A' && s[i] <= 'Z')
+            s[i] = s[i] - 'A' + 'a';
+    }
+ 
+    // List 26 letters
+    for (int i=0; i<26; i++) {
+        // Set the counter
+        int c = 0;
+        for (int j=0; s[j]; j++) {
+            if (s[j] == 'a' + i)
+                c++;
+        }
+ 
+        // Print
+        cout << (char)('a' + i) << ':' << c;
+    }
+}
+*/
