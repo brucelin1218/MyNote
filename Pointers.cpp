@@ -3,7 +3,7 @@ using namespace std;
 
 int main () {
   int firstvalue = 5, secondvalue = 15;
-  int * p1, * p2;
+  int *p1, *p2;
 
   p1 = &firstvalue;  // p1 = address of firstvalue
   p2 = &secondvalue; // p2 = address of secondvalue
