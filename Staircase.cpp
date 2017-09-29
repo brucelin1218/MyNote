@@ -34,9 +34,10 @@ int main() {
       arr[i][j] = ' ';
   // Use for counting index
   int cnt = 1;
-  // When j == N-cnt, that is the start to print '#'
+  
   for (int i=0; i<N; i++) {
     for (int j=0; j<N; j++) {
+      // When j == N-cnt, that is the start to print '#' 
       if (j == N-cnt) {
         int m = j;
         while (m<N) {
@@ -44,6 +45,7 @@ int main() {
           m++;
         }
       }
+      // else print out the space
       cout << arr[i][j];
     }
     cout << endl;
