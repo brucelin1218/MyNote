@@ -7,3 +7,7 @@ for (int i = 0; i < n; i++)
 for (int i = 0; i < n; i++)
   delete[] M[i];            // Delete the i-th row
 delete[] M;                 // Delete the array of row pointers
+
+// Using vectors to create the matrix
+vector<vector<int> > M(n, vector<int>(m));
+cout << M[i][j] << endl;
