@@ -4,8 +4,7 @@
 using namespace std;
 
 int main() {
-    int array[10] = { 1, 3, 4, 10, 11,
-                      10, 23, 99, 123, 514 };
+    int array[10] = { 1, 3, 4, 10, 11, 10, 23, 99, 123, 514 };
     vector<int> v = {100, 99, 97, 98, 50};
     
     for(auto i: array) {
