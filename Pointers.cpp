@@ -3,8 +3,8 @@ using namespace std;
 
 int main () {
   int a = 1, b = 2;
-  int* ptr1;
-  int* ptr2;
+  int *ptr1;
+  int *ptr2;
 
   ptr1 = &a;      // ptr1 = address of firstvalue
   ptr2 = &b;      // ptr2 = address of secondvalue
